@@ -1,0 +1,18 @@
+[package]
+name = "meshed"
+version = "0.1.0"
+authors = ["simpu"]
+edition = "2018"
+
+[dependencies]
+wgpu = "0.5.0"
+futures = "0.3.5"
+raw-window-handle = "0.3.3"
+shaderc = "0.6.2"
+bytemuck = "1.2.0"
+image = "0.23.6"
+
+[dev-dependencies]
+winit = "0.22.2"
+rand = "0.7.3"
+cgmath = "0.17.0"
